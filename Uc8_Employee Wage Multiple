@@ -1,0 +1,48 @@
+public class EmplWageMultiple {
+    public class employee {
+
+        private String firstName,lastName;
+        private int hours;
+        private double wage,salary;
+
+        public String getFirstName() {
+            return firstName;
+        }
+
+        public void setFirstName(String firstName) {
+            this.firstName = firstName;
+        }
+
+        public String getLastName() {
+            return lastName;
+        }
+
+        public void setLastName(String lastName) {
+            this.lastName = lastName;
+        }
+
+        public int getHours() {
+            return hours;
+        }
+
+        public void setHours(int hours) {
+            this.hours = hours;
+        }
+
+        public double getWage() {
+            return wage;
+        }
+
+        public void setWage(double wage) {
+            this.wage = wage;
+        }
+
+        public double getSalary() {
+            salary = getWage()* getHours();
+            return salary;
+        }
+
+        public void setSalary(double salary) {
+
+            this.salary = salary;
+        }}
